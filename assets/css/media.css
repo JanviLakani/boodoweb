@@ -1,0 +1,2543 @@
+@media screen and (min-width: 1700px) {
+  .container {
+    max-width: 160rem;
+  }
+}
+
+/* o-575 extra small none  1rem=8*/
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+
+  section {
+    padding-top: 11rem;
+  }
+
+  .sub-title {
+    font-size: 4rem;
+  }
+  /* ....1hero...  */
+
+  #hero {
+    height: auto;
+  }
+
+  h1 {
+    font-size: 4.7rem;
+    line-height: 6rem;
+  }
+
+  #hero .mainbutton {
+    width: 24rem;
+    padding: 1rem 0;
+  }
+
+  .heromaindata p {
+    font-size: 1.3rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .aboutdata {
+    text-align: center;
+  }
+
+  #Horoscope .mainbutton {
+    padding: 1.4rem 0;
+    width: 28rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  /* .....sun....  */
+
+  .rowdata1 h4 {
+    font-size: 3rem;
+  }
+
+  .rowdata1 img {
+    width: 9rem;
+  }
+
+  .rowdata1 {
+    row-gap: 4rem;
+  }
+
+  .rowimages img {
+    padding-right: 0;
+    border-right: none;
+  }
+
+  .rowimages p {
+    text-align: center;
+  }
+
+  .aboutdata {
+    padding-left: 0;
+  }
+
+  /* ...about....  */
+
+  .rowimages {
+    padding-top: 13rem;
+  }
+
+  .aboutdata h3 {
+    text-align: center;
+  }
+
+  .rowimages P {
+    max-width: 79rem;
+    padding-top: 6rem;
+    text-align: center;
+  }
+
+  .aboutdata h4 {
+    max-width: 68rem;
+    text-align: center;
+    line-height: 5rem;
+  }
+
+  /* astrological...report  */
+
+  .readingreports .sub-title {
+    font-size: 6rem;
+  }
+
+  .rowimages .mainbutton {
+    margin-top: 7rem;
+    width: 25rem;
+    padding: 1.2rem 0;
+  }
+
+  .aboutdata h3 {
+    padding: 2rem 0;
+  }
+
+  /* ****************#astrological-img**boodoo******** */
+
+  .boodooteam {
+    row-gap: 5rem;
+  }
+
+  .boodooteam h3 {
+    font-size: 4.6rem;
+    text-align: center;
+  }
+
+  .boodooteam p {
+    max-width: 71rem;
+    text-align: center;
+    padding-top: 3rem;
+  }
+
+  .boodooteam h2 {
+    font-size: 4.6rem;
+    padding-top: 5rem;
+    text-align: center;
+  }
+
+  /* ********#astrological-img**boodoo*****finifh*** */
+
+  /* /////////////////////////////////////////////////services  */
+
+  .astrohistry1 h4 {
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .astrohistry h4 {
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .astrohistry1 {
+    margin: 0rem 1rem 0rem 1rem;
+    padding: 1rem;
+  }
+
+  .astrohistry {
+    margin: 0rem 1rem 0rem 1rem;
+    padding: 1rem;
+  }
+
+  .readingreports {
+    row-gap: 5rem;
+    padding-top: 6rem;
+  }
+
+  .readingreports h4 {
+    font-size: 2.8rem;
+  }
+
+  .happyclint h2 {
+    font-size: 4.6rem;
+  }
+  /* /////////////////////////////////////////////////services  finish*/
+
+  .whyboodoo img {
+    height: 11rem;
+    width: 11rem;
+  }
+
+  .whyboodoo h3 {
+    font-size: 2.8rem;
+    padding: 1.8rem 0;
+  }
+  .whyboodoo p {
+    font-size: 1.6rem;
+  }
+
+  .whyboodoo {
+    row-gap: 6rem;
+  }
+
+  .whyboodoo {
+    padding-top: 9rem;
+  }
+
+  /* ...why..  */
+
+  .whyboodoo {
+    padding-top: 8rem;
+  }
+
+  /* blog...  */
+
+  .blogdata {
+    row-gap: 3rem;
+  }
+
+  .blogdata h2 {
+    padding: 4rem 0 2rem 0;
+    max-width: 46rem;
+  }
+
+  .happyclint h3 {
+    padding-top: 0;
+  }
+
+  /* horoscope..  */
+
+  .Horoscopedata {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    row-gap: 4rem;
+    justify-content: space-around;
+  }
+
+  .Horoscopedata1 {
+    padding-bottom: 4rem;
+    row-gap: 4rem;
+    justify-content: space-around;
+  }
+
+  .Horoscopedata h2 {
+    font-size: 3rem;
+  }
+
+  .horoimgs img {
+    width: 8rem;
+    padding-right: 0;
+  }
+
+  .leoimgs img {
+    width: 8rem;
+    padding-right: 0;
+  }
+
+  .Horoscopedata1 h2 {
+    font-size: 3rem;
+  }
+
+  .Horoscopedata h2 {
+    font-size: 3rem;
+  }
+
+  .leoimgs {
+    align-items: center;
+    margin-left: 0;
+    justify-content: space-evenly;
+  }
+
+  .horoimgs {
+    align-items: center;
+    margin-right: 0;
+    justify-content: space-evenly;
+  }
+
+  .Horoscopedata {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    row-gap: 4rem;
+  }
+
+  .Horoscopedata1 {
+    padding-bottom: 4rem;
+    row-gap: 4rem;
+  }
+
+  /* ................horoscope.... ************  */
+
+  /* ...Appointment... */
+
+  .servicesdate h4 {
+    text-align: center;
+  }
+
+  .firstname h2 {
+    font-size: 2.5rem;
+  }
+  #Appointmentdate {
+    padding-bottom: 11rem;
+  }
+
+  #Appointmentdate .mainbutton {
+    width: 25rem;
+    padding: 1.3rem 0;
+  }
+  /* ...Appointment...  */
+
+  .happyclint {
+    row-gap: 8rem;
+  }
+
+  /* Membershipprice...  */
+  .startedmonth {
+    padding: 3rem 3.5rem;
+    margin: 0rem 3rem;
+  }
+
+  /* Membershipprice...  */
+
+  .letsmembershipdata h2 {
+    font-size: 3rem;
+  }
+
+  .letsmembershipdata p {
+    font-size: 1.4rem;
+  }
+
+  .price p {
+    font-size: 1.4rem;
+  }
+
+  #Membership .mainbutton {
+    width: 23.5rem;
+    padding: 1rem 0;
+  }
+
+  .Membershipprice {
+    padding-top: 4rem;
+    row-gap: 3rem;
+  }
+  .price {
+    justify-content: space-between;
+  }
+
+  .Membershipprice {
+    row-gap: 4rem;
+  }
+  .starterprice {
+    text-align: center;
+  }
+
+  #swiper1 h2 {
+    font-size: 4rem;
+    max-width: 108rem;
+  }
+
+  .girlimg p {
+    font-size: 1.5rem;
+    max-width: 45rem;
+  }
+
+  .girlimg h3 {
+    font-size: 2rem;
+  }
+
+  /* appointment ..  */
+  /* ######################################################   */
+  .booknow .mainbutton {
+    text-align: center;
+  }
+  .applon {
+    justify-content: center;
+  }
+
+  .servicesdate h4 {
+    /* font-size: 4rem; */
+    max-width: 100%;
+    padding-bottom: 3.5rem;
+    /* text-align: left; */
+  }
+
+  .applon h3 {
+    text-align: center;
+  }
+  .booknow {
+    text-align: center;
+  }
+
+  /* appointment ..  */
+  /* ######################################################   */
+
+  #letsmembership .mainbutton {
+    width: 24rem;
+    padding: 1.2rem 0;
+  }
+
+  .starterprice .mainbutton {
+    margin-top: 3rem;
+  }
+
+  /* ...blog...  */
+
+  .blogdata img {
+    height: 42rem;
+  }
+
+  .blogdata h2 {
+    padding: 2rem 0 1rem 0;
+  }
+
+  .blogdata {
+    padding-top: 4rem;
+  }
+
+  .arrow123 img {
+    height: 15rem;
+  }
+
+  .arrow123 {
+    padding-bottom: 4rem;
+  }
+
+  .girlimg p {
+    max-width: 100%;
+  }
+
+  /* ...blog...  */
+
+  /* ...footer...  */
+
+  .footerdata {
+    row-gap: 4rem;
+  }
+
+  .footerdata .footer1img {
+    width: 60%;
+  }
+
+  footer {
+    padding: 11rem 0;
+  }
+}
+
+/* 576 -767 small sm  */
+
+@media screen and (min-width: 576px) {
+  /* ....1hero...  */
+
+  section {
+    padding-top: 11rem;
+  }
+
+  .sub-title {
+    font-size: 5rem;
+  }
+
+  #hero {
+    height: auto;
+  }
+
+  h1 {
+    font-size: 5.5rem;
+    line-height: 6rem;
+  }
+
+  .heromaindata p {
+    font-size: 1.3rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .aboutdata {
+    text-align: center;
+  }
+
+  #hero .mainbutton {
+    width: 26rem;
+  }
+
+  /* .....sun....  */
+
+  .rowdata1 {
+    row-gap: 4rem;
+  }
+
+  .rowdata1 h4 {
+    font-size: 3rem;
+  }
+
+  .rowdata1 img {
+    width: 9rem;
+  }
+
+  .rowimages img {
+    padding-right: 0;
+    border-right: none;
+  }
+  .rowimages P {
+    max-width: 79rem;
+    padding-top: 6rem;
+    text-align: center;
+  }
+
+  .aboutdata {
+    padding-left: 0;
+  }
+
+  .aboutdata h4 {
+    max-width: 68rem;
+    text-align: center;
+    line-height: 7rem;
+  }
+  .aboutdata h3 {
+    text-align: center;
+  }
+
+  .rowimages .mainbutton {
+    margin-top: 7rem;
+  }
+
+  .rowimages {
+    padding-top: 13rem;
+  }
+  .aboutdata h3 {
+    padding: 2rem 0;
+  }
+
+  /* horo...  */
+
+  /* ****************#astrological-img**boodoo******** */
+
+  .boodooteam {
+    row-gap: 6rem;
+  }
+
+  .boodooteam h3 {
+    font-size: 5.4rem;
+    text-align: center;
+  }
+
+  .boodooteam p {
+    max-width: 66rem;
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  .boodooteam h2 {
+    font-size: 5.4rem;
+    padding-top: 5rem;
+    text-align: center;
+  }
+
+  /* astrological...report  */
+
+  .readingreports .sub-title {
+    font-size: 6rem;
+  }
+
+  /* ********#astrological-img**boodoo*****finifh*** */
+
+  /* /////////////////////////////////////////////////services  */
+
+  .astrohistry1 {
+    margin: 0rem 1rem 0rem 1rem;
+    padding: 2rem;
+  }
+
+  .astrohistry {
+    margin: 0rem 1rem 0rem 1rem;
+    padding: 2rem;
+  }
+
+  .readingreports {
+    row-gap: 5rem;
+    padding-top: 8rem;
+  }
+
+  .readingreports p {
+    font-size: 1.8rem;
+  }
+
+  .readingreports h4 {
+    font-size: 4.4rem;
+  }
+
+  /* /////////////////////////////////////////////////services  finish*/
+
+  /* ////////////////////////////////////////////////////////why  */
+
+  .whyboodoo img {
+    height: 11rem;
+    width: 11rem;
+  }
+
+  .whyboodoo h3 {
+    font-size: 2.8rem;
+    padding: 2rem 0;
+  }
+  .whyboodoo p {
+    font-size: 1.6rem;
+  }
+
+  .whyboodoo {
+    row-gap: 6rem;
+  }
+
+  .whyboodoo {
+    padding-top: 9rem;
+  }
+
+  /* ////////////////////////////////////////////////////////why finish */
+
+  /* membershiback img... */
+
+  .letsmembershipdata h2 {
+    font-size: 3rem;
+  }
+
+  .letsmembershipdata p {
+    font-size: 1.6rem;
+  }
+
+  .Membershipprice {
+    row-gap: 4rem;
+  }
+
+  .startedmonth {
+    padding: 5rem 10rem;
+    margin: 0rem 10rem;
+  }
+
+  #Membership .mainbutton {
+    width: 27rem;
+    padding: 1.1rem 0;
+  }
+
+  .price {
+    justify-content: space-between;
+  }
+
+  /* ......................  */
+
+  /* horoscope..  */
+
+  .happyclint h3 {
+    font-size: 2.3rem;
+    padding-top: 4rem;
+  }
+
+  .happyclint h2 {
+    font-size: 4.9rem;
+  }
+
+  .happyclint h3 {
+    padding-top: 0;
+  }
+
+  .Horoscopedata h2 {
+    font-size: 3rem;
+  }
+
+  .horoimgs img {
+    width: 9rem;
+    padding-right: 0;
+  }
+
+  .leoimgs img {
+    width: 9rem;
+    padding-right: 0;
+  }
+
+  .Horoscopedata1 h2 {
+    font-size: 3.5rem;
+  }
+
+  .Horoscopedata h2 {
+    font-size: 3.5rem;
+  }
+
+  .leoimgs {
+    align-items: center;
+    margin-left: 0;
+    justify-content: space-evenly;
+  }
+
+  .horoimgs {
+    align-items: center;
+    margin-right: 0;
+    justify-content: space-evenly;
+  }
+
+  .Horoscopedata {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    row-gap: 4rem;
+    justify-content: space-around;
+  }
+
+  .Horoscopedata1 {
+    padding-bottom: 7rem;
+    row-gap: 4rem;
+    justify-content: space-around;
+  }
+
+  /* ...Appointment... */
+  #Appointmentdate {
+    padding-bottom: 11rem;
+  }
+
+  .booknow {
+    text-align: center;
+  }
+  /* ...Appointment...  */
+
+  /* ......horoscope....  */
+
+  .happyclint {
+    row-gap: 8rem;
+  }
+
+  .applon h3 {
+    text-align: center;
+  }
+
+  .btnbox .mainbutton {
+    text-align: center;
+  }
+  /* .....  */
+  .starterprice .mainbutton {
+    margin-top: 3rem;
+  }
+
+  .servicesdate h4 {
+    padding-bottom: 3rem;
+  }
+
+  /* appointment ..  */
+  /* ######################################################   */
+
+  .applon {
+    justify-content: center;
+  }
+
+  .servicesdate h4 {
+    max-width: 100%;
+  }
+  .applon h3 {
+    text-align: center;
+  }
+  .booknow .mainbutton {
+    text-align: center;
+  }
+  .firstname h2 {
+    font-size: 2.5rem;
+  }
+
+  /* appointment ..  */
+  /* ######################################################   */
+
+  .Membershipprice {
+    padding-top: 4rem;
+    row-gap: 3.5rem;
+  }
+
+  /* ...blog...  */
+
+  .blogdata {
+    row-gap: 5rem;
+  }
+
+  .blogdata h2 {
+    padding: 4rem 0 2rem 0;
+    max-width: 46rem;
+  }
+
+  #letsmembership .mainbutton {
+    width: 24rem;
+    padding: 1.2rem 0;
+  }
+
+  /* ...swiper...  */
+
+  #swiper1 h2 {
+    font-size: 7rem;
+    max-width: 108rem;
+  }
+
+  .girlimg p {
+    font-size: 1.5rem;
+    max-width: 45rem;
+  }
+
+  .girlimg h3 {
+    font-size: 2rem;
+  }
+
+  /* ...swiper...  */
+
+  .arrow123 img {
+    height: 15rem;
+  }
+
+  .arrow123 {
+    padding-bottom: 4rem;
+  }
+
+  .girlimg p {
+    max-width: 100%;
+  }
+
+  /* ...blog...  */
+
+  .blogdata img {
+    height: 43rem;
+  }
+  .blogdata h2 {
+    padding: 2.5rem 0 1rem 0;
+  }
+
+  .blogdata {
+    padding-top: 5rem;
+  }
+
+  /* ...blog...  */
+
+  /* ....footer...  */
+
+  .boodooslider .swiper-slide {
+    padding: 0 6rem;
+  }
+
+  .footerdata {
+    row-gap: 4rem;
+  }
+
+  .footerdata img {
+    width: 50%;
+  }
+
+  .footerdata img {
+    width: 100%;
+  }
+
+  footer {
+    padding: 11rem 0;
+  }
+  .footerdata .footer1img {
+    width: 60%;
+  }
+}
+
+/* 768- 991 medium md  1rem=56.25*/
+@media screen and (min-width: 768px) {
+  /* ....1hero...  */
+
+  html {
+    font-size: 56.25%;
+  }
+
+  section {
+    padding-top: 12rem;
+  }
+
+  .sub-title {
+    font-size: 5.5rem;
+  }
+
+  h1 {
+    font-size: 6rem;
+    line-height: 9rem;
+  }
+
+  .heromaindata p {
+    font-size: 1.5rem;
+  }
+  .aboutdata {
+    text-align: center;
+  }
+
+  #hero .mainbutton {
+    width: 26rem;
+  }
+
+  .mainbutton {
+    padding: 1.1rem 0;
+    width: 25rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 2.2rem;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* .....sun....  */
+
+  .rowdata1 {
+    justify-content: center;
+    row-gap: 3rem;
+  }
+
+  .rowdata1 h4 {
+    font-size: 3rem;
+  }
+
+  .rowdata1 img {
+    width: 11rem;
+  }
+
+  .rowimages P {
+    max-width: 79rem;
+    padding-top: 6rem;
+    text-align: center;
+  }
+
+  .aboutdata h3 {
+    /* padding-bottom: 2rem; */
+    text-align: center;
+  }
+
+  .aboutdata {
+    padding-left: 0;
+  }
+
+  .aboutdata h4 {
+    max-width: 80rem;
+    text-align: center;
+    line-height: 9rem;
+  }
+
+  .rowimages .mainbutton {
+    margin-top: 5rem;
+  }
+
+  .rowimages {
+    padding-top: 14rem;
+  }
+
+  .aboutdata h3 {
+    padding: 2rem 0;
+  }
+
+  /* ****************#astrological-img**boodoo******** */
+
+  .boodooteam {
+    row-gap: 2rem;
+  }
+
+  .boodooteam h3 {
+    font-size: 5.8rem;
+    text-align: center;
+  }
+
+  .boodooteam p {
+    max-width: 79rem;
+    text-align: center;
+    padding-top: 3rem;
+  }
+
+  .boodooteam h2 {
+    font-size: 5.8rem;
+    padding-top: 5rem;
+    text-align: center;
+  }
+
+  /* ********#astrological-img**boodoo*****finifh*** */
+
+  /* /////////////////////////////////////////////////services  */
+
+  .readingreports h4 {
+    font-size: 2.8rem;
+  }
+
+  .astrohistry1 {
+    margin: 0rem 1rem 0rem 0.5rem;
+    padding: 1rem;
+  }
+
+  .astrohistry {
+    margin: 0rem 0.5rem 0rem 1rem;
+    padding: 1rem;
+  }
+
+  .readingreports p {
+    font-size: 1.6rem;
+  }
+
+  .readingreports {
+    row-gap: 3rem;
+    padding-top: 8rem;
+  }
+
+  /* ######################rowimages  */
+
+  /* /////////////////////////////////////////////////services  finish*/
+
+  /* ..horoscope.. */
+
+  .happyclint h3 {
+    font-size: 2.3rem;
+    padding-top: 4rem;
+  }
+
+  .happyclint h2 {
+    font-size: 5.4rem;
+  }
+
+  .btnbox .booknow {
+    text-align: center;
+  }
+
+  .Horoscopedata {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .Horoscopedata1 {
+    padding-bottom: 6rem;
+  }
+
+  .Horoscopedata h2 {
+    font-size: 3rem;
+  }
+
+  .horoimgs img {
+    width: 10rem;
+    padding-right: 2rem;
+  }
+
+  .leoimgs img {
+    width: 10rem;
+    padding-right: 2rem;
+  }
+
+  .Horoscopedata1 h2 {
+    font-size: 2rem;
+  }
+
+  .Horoscopedata h2 {
+    font-size: 2rem;
+  }
+
+  .leoimgs {
+    margin-left: 0;
+  }
+
+  .horoimgs {
+    margin-right: 0;
+  }
+
+  .Horoscopedata {
+    justify-content: space-between;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .Horoscopedata1 {
+    padding-bottom: 10rem;
+    justify-content: space-between;
+  }
+
+  /* ...Appointment... */
+  #Appointmentdate {
+    padding-bottom: 12rem;
+  }
+  /* ...Appointment...  */
+
+  /* services ...  */
+  .servicesdate {
+    row-gap: 6rem;
+  }
+
+  .servicesdate h4 {
+    /* font-size: 5rem; */
+    max-width: 100%;
+  }
+  .applon h3 {
+    text-align: center;
+  }
+
+  .btnbox .mainbutton {
+    text-align: center;
+  }
+
+  /* services ...  */
+
+  .astrohistry1 h4 {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .astrohistry h4 {
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  /* ////////////////////////////////////////////////////////why  */
+  /* why...   */
+
+  .whyboodoo {
+    row-gap: 6rem;
+    justify-content: space-around;
+    /* text-align: center; */
+    padding-top: 11rem;
+  }
+
+  .whyboodoo img {
+    height: 11rem;
+    width: 11rem;
+  }
+
+  .whyboodoo h3 {
+    font-size: 2.8rem;
+    padding: 3rem 0;
+  }
+  .whyboodoo p {
+    font-size: 1.6rem;
+  }
+
+  .whychoose .sub-title {
+    font-size: 6rem;
+  }
+
+  /* ////////////////////////////////////////////////////////why finish */
+
+  /* .....blog...  */
+
+  .startedmonth {
+    padding: 5rem 3.7rem;
+    margin: 3px 3rem;
+  }
+
+  .Membershipprice {
+    justify-content: space-around;
+  }
+
+  .price {
+    justify-content: space-between;
+  }
+
+  .Membershipprice .mainbutton {
+    text-align: center;
+  }
+
+  .price p {
+    font-size: 1.4rem;
+  }
+
+  #Membership .mainbutton {
+    width: 27rem;
+  }
+
+  .Membershipprice {
+    padding-top: 7rem;
+    row-gap: 4rem;
+  }
+
+  .firstname h2 {
+    font-size: 2.4rem;
+  }
+
+  /* .......................... */
+  /* membershiback img... */
+
+  .startedmonth {
+    padding: 4rem 3.7rem;
+    margin: 3px 2.5rem;
+  }
+
+  .Membershipprice {
+    padding-top: 5rem;
+    row-gap: 4rem;
+  }
+  #letsmembership .mainbutton {
+    width: 25rem;
+    padding: 1.4rem 0;
+  }
+
+  /* ...swiper...  */
+
+  #swiper1 h2 {
+    font-size: 5.9rem;
+    max-width: 108rem;
+  }
+
+  .girlimg p {
+    font-size: 1.5rem;
+    max-width: 45rem;
+  }
+
+  .girlimg h3 {
+    font-size: 2rem;
+  }
+
+  /* ...swiper...  */
+
+  .arrow123 img {
+    height: 18rem;
+  }
+
+  .arrow123 {
+    padding-bottom: 5rem;
+  }
+
+  /* ...blog...  */
+
+  .blogdata img {
+    height: 45rem;
+  }
+
+  .blogdata h2 {
+    padding: 3.5rem 0 1.5rem 0;
+  }
+
+  .blogdata {
+    padding-top: 6rem;
+  }
+
+  /* ...blog...  */
+
+  /* .....footer.....  */
+
+  .footerdata .footer1img {
+    width: 50%;
+  }
+
+  footer {
+    padding: 12rem 0;
+  }
+
+  .footerdata {
+    /* row-gap: 4rem; */
+    justify-content: space-around;
+}
+}
+
+/* 992-1199 large lg  */
+@media screen and (min-width: 992px) {
+  /* ....1hero...  */
+
+  section {
+    padding-top: 12rem;
+  }
+
+  .sub-title {
+    font-size: 6rem;
+  }
+
+  h1 {
+    font-size: 8.5rem;
+    line-height: 11rem;
+  }
+
+  .heromaindata p {
+    font-size: 1.7rem;
+    padding-bottom: 4rem;
+  }
+
+  .aboutdata {
+    text-align: left;
+  }
+
+  /* .....sun....  */
+
+  .rowdata1 h4 {
+    font-size: 3rem;
+  }
+  /* part of..  */
+
+  .aboutdata {
+    padding-left: 4rem;
+  }
+
+  .rowdata1 img {
+    width: 12rem;
+  }
+
+  /* btn.... */
+
+  #hero .mainbutton {
+    width: 27rem;
+  }
+
+  .mainbutton {
+    padding: 1.5rem 0;
+    width: 30rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 2.4rem;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .rowimages img {
+    padding-right: 4rem;
+    border-right: 1px solid var(--primary-color);
+  }
+
+  .rowimages P {
+    max-width: 60rem;
+    padding-top: 10rem;
+  }
+
+  .aboutdata h3 {
+    text-align: left;
+  }
+
+  .aboutdata h4 {
+    max-width: 61rem;
+    text-align: left;
+    line-height: 11rem;
+  }
+
+  .aboutdata h4 {
+    max-width: 45rem;
+  }
+
+  .aboutdata h4 {
+    line-height: 8rem;
+  }
+
+  .rowimages P {
+    max-width: 60rem;
+    padding-top: 6rem;
+  }
+
+  .rowimages img {
+    height: 41rem;
+  }
+
+  .rowimages {
+    padding-top: 15rem;
+  }
+
+  .rowimages .mainbutton {
+    margin-top: 10rem;
+  }
+
+  .aboutdata h3 {
+    padding-bottom: 2rem;
+    padding-top: 0;
+  }
+
+  /* ****************#astrological-img**boodoo******** */
+
+  .boodooteam h2 {
+    font-size: 7.8rem;
+    padding-top: 8rem;
+    text-align: left;
+  }
+
+  .boodooteam h3 {
+    font-size: 7.8rem;
+    text-align: left;
+    padding-top: 3rem;
+  }
+
+  .astrological4img img {
+    height: 25rem;
+  }
+
+  .boodooteam p {
+    max-width: 40rem;
+    padding-top: 11.5rem;
+    text-align: left;
+  }
+
+  /* ****************#astrological-img**boodoo***finish***** */
+
+  /* ********#astrological-report**boodoo*****finifh*** */
+
+  /* /////////////////////////////////////////////////services  */
+  #Astrological-Reports h4 {
+    max-width: 106rem;
+  }
+  .readingreports h4 {
+    font-size: 3.2rem;
+  }
+  .astrohistry1 {
+    margin: 0rem 2rem 0rem 4.5rem;
+    padding: 2rem 2rem;
+  }
+
+  .astrohistry {
+    margin: 0rem 4.5rem 0rem 2rem;
+    padding: 2rem 2rem;
+  }
+
+  .readingreports {
+    row-gap: 9rem;
+    padding-top: 7rem;
+  }
+
+  .Astrological-Reports .sub-title {
+    font-size: 6rem;
+  }
+
+  /* Astrological-Reports   */
+
+  /* /////////////////////////////////////////////////services  finish*/
+
+  /* horoscope...  */
+  .Horoscopedata {
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+  }
+
+  .Horoscopedata1 {
+    padding-bottom: 6.5rem;
+  }
+
+  .happyclint h3 {
+    font-size: 2.2rem;
+    padding-top: 7rem;
+  }
+
+  .happyclint h2 {
+    font-size: 5.8rem;
+  }
+
+  .btnbox .booknow {
+    text-align: left;
+  }
+
+  .Horoscopedata h2 {
+    font-size: 4rem;
+  }
+
+  .Horoscopedata1 h2 {
+    font-size: 4rem;
+  }
+
+  .horoimgs img {
+    width: 9rem;
+    padding-right: 1rem;
+  }
+
+  .leoimgs img {
+    width: 9rem;
+    padding-right: 1rem;
+  }
+
+  .leoimgs {
+    margin-left: 0;
+  }
+
+  .horoimgs {
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .Horoscopedata {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    justify-content: space-between;
+  }
+
+  .Horoscopedata1 {
+    padding-bottom: 10rem;
+    justify-content: space-between;
+  }
+
+  /* ...Appointment... */
+  #Appointmentdate {
+    padding-bottom: 12rem;
+  }
+  /* ...Appointment...  */
+
+  /* /////////////////  */
+
+  .happyclint h3 {
+    font-size: 2.4rem;
+  }
+
+  /* .......services.....  */
+
+  .servicesdate h4 {
+    max-width: 45rem;
+    text-align: left;
+  }
+
+  .firstname h2 {
+    font-size: 2.8rem;
+  }
+
+  .firstname input {
+    padding: 1.7rem 1.7rem;
+    font-size: 2rem;
+  }
+
+  .firstname select {
+    padding: 1.7rem 1.7rem;
+    font-size: 2rem;
+  }
+  .applon h3 {
+    text-align: left;
+  }
+  .astrohistry1 h4 {
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .astrohistry h4 {
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  /* .......services.....  */
+
+  /* ////////////////////////////////////////////////////////why  */
+
+  .whyboodoo h3 {
+    font-size: 2rem;
+  }
+  .whyboodoo {
+    justify-content: space-between;
+    padding-top: 7rem;
+  }
+  .whyboodoo p {
+    font-size: 1.7rem;
+  }
+
+  .whyboodoo img {
+    height: 11rem;
+    width: 11rem;
+  }
+
+  /* ////////////////////////////////////////////////////////why finish */
+
+  /* .....blog......   */
+
+  .blogdata p {
+    font-size: 1.5rem;
+  }
+
+  /* membershiback img... */
+
+  .letsmembershipdata h2 {
+    font-size: 7rem;
+  }
+
+  /* membership...  */
+
+  .startedmonth {
+    padding: 5rem 3.7rem;
+    margin: 3px 3rem;
+  }
+
+  .Membershipprice {
+    justify-content: space-around;
+  }
+
+  .Membershipprice .mainbutton {
+    text-align: center;
+  }
+
+  #Membership .mainbutton {
+    padding: 1.2rem 0;
+    width: 27rem;
+    /* font-size: 2.4rem; */
+  }
+
+  .firstname h2 {
+    font-size: 2.4rem;
+  }
+
+  .startedmonth {
+    padding: 5rem 8rem;
+    margin: 0;
+  }
+
+  .price {
+    justify-content: space-between;
+  }
+
+  .starterprice {
+    text-align: center;
+  }
+  #letsmembership .mainbutton {
+    width: 26rem;
+  }
+
+  /* membership...  */
+
+  .Membershipprice {
+    padding-top: 5rem;
+    row-gap: 8rem;
+  }
+
+  #Appointmentdate .mainbutton {
+    padding: 1.3rem 0;
+    width: 25rem;
+    font-size: 2.4rem;
+  }
+
+  /* ...swiper...  */
+
+  #swiper1 h2 {
+    font-size: 9rem;
+    max-width: 100%;
+  }
+
+  .girlimg p {
+    font-size: 1.6rem;
+    max-width: 46rem;
+  }
+
+  .girlimg h3 {
+    font-size: 2.3rem;
+  }
+
+  /* ...swiper...  */
+  .arrow123 img {
+    height: 20rem;
+  }
+
+  .arrow123 {
+    padding-bottom: 5rem;
+  }
+
+  .girlimg p {
+    max-width: 100%;
+  }
+
+  .boodooslider .swiper-slide {
+    padding: 0 6rem;
+  }
+
+  /* ...blog...  */
+
+  .blogdata {
+    padding-top: 7rem;
+  }
+
+  /* ...blog...  */
+
+  /* ........footer...  */
+
+  .footerdata {
+    row-gap: 3rem;
+    justify-content: space-around;
+  }
+
+  .footerdata img {
+    width: 100%;
+  }
+
+  .footerdata .footer1img {
+    width: 55%;
+  }
+
+  footer {
+    padding: 12rem 0;
+  }
+}
+
+/* 1200-1399 extra large 1rem=62.5px */
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  section {
+    padding-top: 14rem;
+  }
+
+  .sub-title {
+    font-size: 6.5rem;
+  }
+
+  /* ....1hero...  */
+
+  #hero {
+    height: 100vh;
+  }
+
+  .heromaindata p {
+    font-size: 1.6rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+  }
+  #hero .mainbutton {
+    width: 28rem;
+  }
+
+  /* .....sun....  */
+
+  .rowdata1 img {
+    width: 11rem;
+  }
+
+  /* part of..  */
+
+  .rowimages P {
+    max-width: 49rem;
+    padding-top: 6rem;
+  }
+
+  .rowdata1 {
+    justify-content: space-between;
+  }
+
+  /* ...about...  */
+  .rowimages {
+    padding-top: 16rem;
+  }
+
+  .aboutdata {
+    padding-left: 6rem;
+  }
+
+  .rowimages img {
+    padding-right: 6rem;
+  }
+
+  .aboutdata h4 {
+    max-width: 49rem;
+  }
+  /* ##############  */
+
+  .aboutdata h4 {
+    max-width: 48rem;
+    line-height: 9rem;
+  }
+
+  .rowimages img {
+    height: 45rem;
+  }
+
+  /* .........part...  */
+
+  /* ****************#astrological-img**boodoo******** */
+  .boodooteam h2 {
+    font-size: 7.8rem;
+    padding-top: 6rem;
+  }
+
+  .boodooteam h3 {
+    font-size: 7.8rem;
+    padding-top: 5rem;
+  }
+
+  .boodooteam p {
+    max-width: 43rem;
+    padding-top: 15rem;
+  }
+
+  .astrological4img img {
+    height: 33rem;
+  }
+
+  /* ****************#astrological-img**boodoo******** */
+
+  /* /////////////////////////////////////////////////services  */
+  #Astrological-Reports h4 {
+    max-width: 131rem;
+  }
+
+  .readingreports h4 {
+    font-size: 2.7rem;
+  }
+  .astrohistry1 {
+    margin: 0rem 4rem 0rem 5rem;
+    padding: 4rem 3rem;
+  }
+
+  .readingreports p {
+    font-size: 1.6rem;
+  }
+
+  .astrohistry {
+    margin: 0rem 5rem 0rem 4rem;
+    padding: 4rem 3rem;
+  }
+
+  .readingreports {
+    row-gap: 10rem;
+    padding-top: 8rem;
+  }
+
+  /* /////////////////////////////////////////////////services  finish*/
+
+  /* ...horoscope..  */
+  .Horoscopedata {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .Horoscopedata1 {
+    padding-bottom: 7rem;
+  }
+
+  .Horoscopedata h2 {
+    font-size: 4rem;
+  }
+
+  .Horoscopedata1 h2 {
+    font-size: 4rem;
+  }
+
+  .horoimgs img {
+    width: 14rem;
+    padding-right: 4rem;
+  }
+
+  .leoimgs img {
+    width: 14rem;
+    padding-right: 4rem;
+  }
+
+  .leoimgs {
+    margin-left: auto;
+  }
+
+  .horoimgs {
+    margin-right: auto;
+  }
+
+  /* ...Appointment... */
+  #Appointmentdate {
+    padding-bottom: 14rem;
+  }
+  /* ...Appointment...  */
+
+  /* /////////////////  */
+
+  .happyclint h3 {
+    font-size: 2.4rem;
+    padding-top: 18rem;
+  }
+
+  .happyclint h2 {
+    font-size: 6.4rem;
+  }
+
+  .whyboodoo {
+    padding-top: 8rem;
+  }
+
+  /* .......services.....  */
+
+  .firstname h2 {
+    font-size: 2.5rem;
+  }
+
+  .firstname input {
+    padding: 1.8rem 1.8rem;
+    font-size: 2.2rem;
+  }
+
+  .firstname select {
+    padding: 1.8rem 1.8rem;
+    font-size: 2.2rem;
+  }
+
+  .astrohistry1 h4 {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .astrohistry h4 {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+
+  /* .......services.....  */
+
+  /* ////////////////////////////////////////////////////////why  */
+
+  /* ..why..  */
+  .whyboodoo h3 {
+    font-size: 2.7rem;
+    padding: 2rem 0;
+  }
+
+  .whyboodoo h3 {
+    font-size: 2.2rem;
+  }
+
+  .whyboodoo p {
+    font-size: 1.2rem;
+  }
+
+  .whyboodoo img {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  /* ////////////////////////////////////////////////////////why finish  */
+
+  #letsmembership .mainbutton {
+    width: 28rem;
+  }
+
+  /* membershiback img... */
+
+  /* membership ...  */
+
+  #Appointmentdate .mainbutton {
+    padding: 1.3rem 0;
+    width: 26rem;
+    font-size: 2.4rem;
+  }
+
+  #Membership .mainbutton {
+    padding: 1rem 0;
+    width: 25rem;
+  }
+
+  .startedmonth {
+    /* padding: 5rem 3.7rem; */
+    margin: 3px 3rem;
+  }
+
+  .price p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--primary-color);
+  }
+
+  .startedmonth {
+    padding: 5rem 4rem;
+    margin: 0px 2rem;
+  }
+
+  .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* blog....  */
+
+  .blogdata h2 {
+    padding: 5rem 0 2rem 0;
+    max-width: 30rem;
+  }
+
+  /* ...swiper...  */
+
+  .girlimg p {
+    max-width: 46rem;
+  }
+
+  #swiper1 h2 {
+    font-size: 10rem;
+    max-width: 100%;
+  }
+
+  .girlimg p {
+    font-size: 1.6rem;
+  }
+
+  .girlimg h3 {
+    font-size: 2.3rem;
+  }
+
+  .Membershipprice {
+    padding-top: 7rem;
+    /* row-gap: 4rem; */
+  }
+
+  /* swiper ...  */
+
+  .arrow123 img {
+    height: 22rem;
+  }
+
+  .arrow123 {
+    padding-bottom: 5.5rem;
+  }
+
+  .boodooslider .swiper-slide {
+    padding: 0 7rem;
+  }
+
+  .boodooslider .swiper-slide img {
+    height: 47rem;
+  }
+
+  /* ...blog...  */
+  .blogdata img {
+    height: 40rem;
+  }
+
+  .blogdata h2 {
+    font-size: 2rem;
+  }
+
+    .blogdata img {
+    height: 40rem;
+}
+
+  /* ...footer...  */
+
+  .footerdata ul li a {
+    font-size: 1.3rem;
+  }
+
+  .footerdata h2 {
+    font-size: 3rem;
+  }
+
+  .footerdata p {
+    font-size: 1.6rem;
+  }
+
+  .footerdata .footer1img {
+    width: 100%;
+  }
+
+  footer {
+    padding: 14rem 0;
+  }
+}
+
+/* 1400-1699 extra extra large */
+@media screen and (min-width: 1400px) {
+  /* ....1hero...  */
+
+  h1 {
+    font-size: 10rem;
+    line-height: 14rem;
+  }
+
+  section {
+    padding-top: 16rem;
+  }
+
+  .sub-title {
+    font-size: 7.5rem;
+  }
+
+  #hero .mainbutton {
+    width: 29rem;
+  }
+
+  .heromaindata p {
+    font-size: 1.7rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+  }
+
+  /* .....sun....  */
+  .rowdata1 img {
+    width: 12rem;
+  }
+
+  .rowdata1 h4 {
+    font-size: 4rem;
+  }
+  /* ...pert of  */
+
+  .aboutdata {
+    padding-left: 9rem;
+  }
+
+  .rowimages img {
+    padding-right: 9rem;
+  }
+
+  .rowimages P {
+    max-width: 60rem;
+    text-align: left;
+  }
+
+  .aboutdata h4 {
+    max-width: 55rem;
+    line-height: 11rem;
+  }
+
+  /* ............  */
+  .rowimages {
+    padding-top: 18rem;
+  }
+
+  .rowimages img {
+    border-right: 1px solid var(--primary-color);
+    height: 49rem;
+  }
+
+  .rowimages P {
+    padding-top: 11rem;
+  }
+
+  /* ****************#astrological-img**boodoo******** */
+  .boodooteam h2 {
+    font-size: 9.8rem;
+    padding-top: 6rem;
+  }
+
+  .boodooteam h3 {
+    font-size: 9.8rem;
+    padding-top: 0;
+  }
+
+  .boodooteam p {
+    max-width: 46rem;
+    padding-top: 17rem;
+  }
+
+  /* ****************#astrological-img**boodoo******** */
+
+  /* *************Astrological Reports***********  */
+  .readingreports h4 {
+    font-size: 3rem;
+  }
+
+  /* *************Astrological Reports*********** fff */
+
+  /* /////////////////////////////////////////////////services  */
+  .readingreports h4 {
+    font-size: 3.8rem;
+  }
+
+  .astrohistry1 {
+    margin: 0rem 4rem 0rem 5.5rem;
+    padding: 4rem 3rem;
+  }
+
+  .readingreports p {
+    font-size: 1.8rem;
+  }
+
+  .astrohistry {
+    margin: 0rem 5.5rem 0rem 4rem;
+    padding: 4rem 3rem;
+  }
+
+  .readingreports {
+    row-gap: 11rem;
+    padding-top: 10rem;
+  }
+
+  /* /////////////////////////////////////////////////services  finish*/
+
+  /* .......services.....  */
+
+  .servicesdate h4 {
+    text-align: left;
+  }
+
+  .firstname h2 {
+    font-size: 3.2rem;
+  }
+
+  .firstname input {
+    padding: 2rem 2rem;
+    font-size: 2.4rem;
+  }
+
+  .firstname select {
+    padding: 2rem 2rem;
+    font-size: 2.4rem;
+  }
+  /* .......services.....  */
+
+  /* horoscope...   */
+  .happyclint h3 {
+    padding-top: 18rem;
+    font-size: 3rem;
+  }
+
+  .Horoscopedata {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .Horoscopedata1 {
+    padding-bottom: 8rem;
+  }
+
+  .Horoscopedata1 h2 {
+    font-size: 5.4rem;
+  }
+
+  .Horoscopedata h2 {
+    font-size: 5.4rem;
+  }
+
+  .horoimgs img {
+    width: 18rem;
+    padding-right: 6rem;
+  }
+
+  .leoimgs img {
+    width: 18rem;
+    padding-right: 6rem;
+  }
+
+  /* ...Appointment... */
+  #Appointmentdate {
+    padding-bottom: 16rem;
+  }
+
+  #Appointmentdate .mainbutton {
+    padding: 1.5rem 0;
+    width: 30rem;
+    font-size: 2.4rem;
+  }
+
+  /* ...Appointment...  */
+
+  /* ///////////////////  */
+  .happyclint h3 {
+    font-size: 3rem;
+  }
+
+  .happyclint h2 {
+    font-size: 7.3rem;
+  }
+  .astrohistry h4 {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  .astrohistry1 h4 {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  /* ////////////////////////////////////////////////////////why  */
+  .whyboodoo {
+    padding-top: 10rem;
+  }
+
+  /* why..  */
+
+  .whyboodoo h3 {
+    font-size: 2.6rem;
+  }
+
+  .whyboodoo img {
+    height: 14rem;
+    width: 14rem;
+  }
+
+  .whyboodoo p {
+    font-size: 1.4rem;
+  }
+
+  /* ////////////////////////////////////////////////////////why  finish*/
+
+  /* ..membership...  */
+
+  .startedmonth {
+    padding: 5rem 4rem;
+    margin: 0px 2rem;
+  }
+
+  .price p {
+    font-size: 1.8rem;
+  }
+
+  .price {
+    justify-content: space-around;
+  }
+
+  #letsmembership .mainbutton {
+    width: 30rem;
+  }
+
+  #Membership .mainbutton {
+    padding: 1.5rem 0;
+    width: 30rem;
+  }
+
+  .Membershipprice {
+    padding-top: 7rem;
+  }
+
+  /* ...swiper...  */
+  #swiper1 h2 {
+    font-size: 11rem;
+    max-width: 100%;
+  }
+
+  .girlimg p {
+    font-size: 1.8rem;
+  }
+
+  .girlimg h3 {
+    font-size: 2.4rem;
+  }
+
+  /* ...swiper...  */
+
+ 
+
+  .arrow123 img {
+    height: 25rem;
+  }
+
+  .arrow123 {
+    padding-bottom: 6rem;
+  }
+
+  .boodooslider .swiper-slide {
+    padding: 0 8rem;
+  }
+
+  /* ...blog...  */
+
+  .blogdata img {
+    height: 45rem;
+  }
+
+  .blogdata h2 {
+    font-size: 2.4rem;
+  }
+
+  .boodooslider .swiper-slide img {
+    height: 48rem;
+  }
+
+  .blogdata img {
+    height: 45rem;
+}
+
+  /* ...........footer......  */
+  .footerdata h2 {
+    font-size: 3.2rem;
+  }
+
+  .footerdata ul li a {
+    font-size: 1.6rem;
+  }
+
+  .footerdata p {
+    font-size: 1.8rem;
+  }
+  footer {
+    padding: 16rem 0;
+  }
+}
+
+/* 1700  any */
+@media screen and (min-width: 1700px) {
+  .container {
+    max-width: 160rem;
+  }
+
+  /* ....1hero...  */
+
+  h1 {
+    font-size: 13rem;
+  }
+
+  .sub-title {
+    font-size: 8.4rem;
+  }
+
+  /* ...sun..  */
+
+  .rowdata1 img {
+    width: 15rem;
+  }
+
+  .rowdata1 h4 {
+    font-size: 5.1rem;
+  }
+
+  .heromaindata p {
+    font-size: 1.8rem;
+  }
+
+  #hero .mainbutton {
+    width: 33rem;
+  }
+
+  /* .......services.....  */
+
+  .aboutdata h4 {
+    max-width: 58rem;
+    line-height: 11rem;
+  }
+
+  /* .......services.....  */
+
+  /* ****************#astrological-img**boodoo******** */
+
+  .boodooteam h2 {
+    font-size: 12.5rem;
+    padding-top: 10rem;
+  }
+
+  .boodooteam h3 {
+    font-size: 12.5rem;
+  }
+
+  /* *************Astrological Reports***********  */
+
+  #Astrological-Reports h4 {
+    max-width: 159rem;
+  }
+
+  .astrohistry1 h4 {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+
+  .readingreports h4 {
+    font-size: 4.4rem;
+  }
+
+  /* *************Astrological Reports*********** fff */
+
+  /* ////////////////////////////////////////////////////////why  */
+
+  .whyboodoo {
+    padding-top: 17rem;
+  }
+
+  .whyboodoo img {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .whyboodoo p {
+    font-size: 1.6rem;
+  }
+
+  .whyboodoo h3 {
+    padding: 3rem 0;
+  }
+
+  /* ////////////////////////////////////////////////////////why  finish*/
+
+  .astrohistry1 {
+    margin: 0rem 4rem 0rem 7.5rem;
+    padding: 5rem 6rem;
+  }
+
+  .readingreports h4 {
+    font-size: 4.4rem;
+  }
+
+  .astrohistry {
+    margin: 0rem 7.5rem 0rem 4rem;
+    padding: 5rem 6rem;
+  }
+
+  .readingreports p {
+    font-size: 1.8rem;
+  }
+
+  .readingreports {
+    row-gap: 15rem;
+    padding-top: 10rem;
+  }
+  /* /////////////////////////////////////////////////services finish */
+
+  /* ...horoscope..  */
+
+  .Horoscopedata {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .Horoscopedata1 {
+    padding-bottom: 10rem;
+  }
+  .happyclint h2 {
+    font-size: 8rem;
+  }
+  .happyclint h3 {
+    font-size: 3.2rem;
+  }
+
+  /* ...Appointment... */
+  #Appointmentdate {
+    padding-bottom: 20rem;
+  }
+  /* ...Appointment...  */
+
+  /* ...membership...  */
+
+  .startedmonth {
+    padding: 6rem 7.7rem;
+    margin: 0 3rem;
+  }
+  /* .letsmembership........  */
+
+  .letsmembershipdata p {
+    font-size: 1.8rem;
+  }
+  /* ...pert of  */
+
+  .aboutdata {
+    padding-left: 11rem;
+  }
+
+  .rowimages img {
+    padding-right: 11rem;
+  }
+
+  .rowimages {
+    padding-top: 20rem;
+  }
+  /* #################  */
+
+  /* ..membership...  */
+
+  /* ...swiper...  */
+  #swiper1 h2 {
+    font-size: 12.8rem;
+    max-width: 100%;
+  }
+
+  /* ...swiper...  */
+
+  .arrow123 img {
+    height: 35rem;
+  }
+
+  #swiper1 h2 {
+    font-size: 12.8rem;
+  }
+
+  .arrow123 {
+    padding-bottom: 8rem;
+  }
+
+  .boodooslider .swiper-slide img {
+    height: 51rem;
+  }
+
+  /* ...blog...  */
+
+  .blogdata {
+    padding-top: 8rem;
+  }
+
+  /* ...blog...  */
+
+  /* ........footer..........  */
+
+  .footerdata ul li a {
+    font-size: 1.8rem;
+  }
+
+  footer {
+    padding: 20rem 0;
+  }
+}

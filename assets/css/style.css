@@ -1,0 +1,826 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Alegreya";
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  padding: initial;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding-top: 20rem;
+}
+
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #c8191c;
+}
+
+/* .............header...............  */
+
+header .nav-link {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin: 0 2.5rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--secondary-color);
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: rgb(12, 7, 7) !important;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+
+.menu1 {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+.main-title {
+  font-size: 2.4rem;
+  color: var(--secondary-color);
+  font-weight: 700;
+  text-align: center;
+}
+
+.sub-title {
+  font-size: 8.4rem;
+  color: var(--primary-color);
+  /* text-transform: capitalize; */
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* ............................hero.............................  */
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(#000000 33%, #c8191c 231%);
+  text-align: center;
+  margin-top: 0 !important;
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(../images/Vector\ \(4\).png);
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.1;
+}
+
+.heromaindata {
+  padding-top: 15rem;
+  z-index: 999999;
+  position: relative;
+}
+
+h1 {
+  font-size: 13rem;
+  font-weight: 700;
+  line-height: 16rem;
+  color: var(--primary-color);
+}
+
+
+.heromaindata p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--primary-color);
+  padding-bottom: 5.5rem;
+  /* max-width: 165rem; */
+}
+
+.mainbutton {
+  padding: 1.5rem 0;
+  width: 30rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 2.4rem;
+  /* font-weight: 700; */
+  display: inline-block;
+  text-align: center;
+}
+
+.strong1 {
+  color: var(--secondary-color);
+}
+
+/* .................................................  */
+
+/* ..........................sunshine.....................  */
+
+#sunshine {
+  width: 100%;
+  background: linear-gradient(0deg, #000000 33%, #c8191c 231%);
+}
+
+.rowdata1 {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.rowdata1 h4 {
+  padding-top: 2rem;
+}
+
+.rowdata1 img {
+  width: 15rem;
+}
+
+.rowdata1 h4 {
+  font-size: 4.5rem;
+  color: var(--primary-color);
+}
+
+.rowimages {
+  padding-top: 20rem;
+}
+
+.rowimages P {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  max-width: 60rem;
+  padding-top: 10rem;
+}
+
+.rowimages img {
+  padding-right: 11rem;
+  border-right: 1px solid var(--primary-color);
+  height: 49rem;
+}
+
+.aboutdata {
+  padding-left: 11rem;
+}
+
+.aboutdata h3 {
+  padding-bottom: 2rem;
+  text-align: left;
+}
+
+.aboutdata h4 {
+  max-width: 61rem;
+  line-height: 11rem;
+  text-align: left;
+}
+
+.rowimages .mainbutton {
+  margin-top: 10rem;
+}
+
+/* .........................sunshine  .....f..............  */
+/* 
+
+/* .............................astrological-img............  */
+
+#astrological-img {
+  width: 100%;
+  background: linear-gradient( #000000 33%, #c8191c 231%);
+}
+
+.astrological4img img {
+  height: 33rem;
+}
+
+.boodooteam h3 {
+  font-size: 12.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.boodooteam p {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  max-width: 46rem;
+  font-weight: 400;
+  padding-top: 11.5rem;
+}
+
+.boodooteam h2 {
+  font-size: 12.8rem;
+  color: var(--primary-color);
+  padding-top: 10rem;
+  font-weight: 700;
+}
+
+/* ...................Astrological-Reports.............  */
+
+#Astrological-Reports {
+  width: 100%;
+  background: linear-gradient(0deg, #000000 33%, #c8191c 231%);
+}
+
+#Astrological-Reports h4 {
+  max-width: 131rem;
+}
+
+
+.readingreports {
+  row-gap: 15rem;
+  padding-top: 10rem;
+}
+
+.readingreports img {
+  height: 32rem;
+}
+
+.readingreports h4 {
+  font-size: 4.4rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.readingreports p {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+.astrohistry {
+  margin: 0rem 7.5rem 0rem 4rem;
+  padding: 5rem 6rem;
+  border: 1px solid var(--primary-color);
+}
+
+.astrohistry1 {
+  margin: 0rem 4rem 0rem 7.5rem;
+  padding: 5rem 6rem;
+  border: 1px solid var(--primary-color);
+}
+
+.astrohistry h4 {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.astrohistry1 h4 {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+
+
+
+/* ..............................................  */
+/* .............whychoose...................  */
+
+#whychoose {
+  width: 100%;
+  background: linear-gradient(#000000 33%, #c8191c 231%);
+}
+
+.whyboodoo {
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 17rem;
+}
+
+.whyboodoo img {
+  height: 15rem;
+  width: 15rem;
+}
+
+.whyboodoo h3 {
+  font-size: 3.1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding: 3rem 0;
+  text-transform: uppercase;
+
+}
+
+.whyboodoo p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+/* ********************************************* */
+
+/* ................Horoscope...............  */
+
+#Horoscope {
+  width: 100%;
+  background: linear-gradient(0deg,#000000 33%, #c8191c 231%);
+}
+
+.Horoscopedata {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.Horoscopedata h2 {
+  font-size: 5.4rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.Horoscopedata p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--primary-color);
+  text-align: left;
+}
+
+/* ............. */
+
+.Horoscopedata1 {
+  padding-bottom: 10rem;
+}
+
+
+
+.Horoscopedata1 h2 {
+  font-size: 5.4rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.Horoscopedata1 p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--primary-color);
+  text-align: left;
+}
+
+#Horoscope .container {
+  text-align: center;
+}
+
+.horoimgs {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+
+.leoimgs {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+/* .....btn... */
+
+.Horoscopedata1 a {
+  margin-top: 10rem;
+}
+
+.horoimgs img {
+  width: 18rem;
+  padding-right: 6rem;
+ 
+}
+.leoimgs img {
+  width: 18rem;
+  padding-right: 6rem;
+}
+
+/* *********************Horoscope****finish************ */
+
+/* ................teamappointment.............  */
+
+.happyclint {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.happyclint h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  padding-top: 20rem;
+}
+
+.happyclint h2 {
+  font-size: 10rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+/* ********************teamappointment*****finish*****  */
+
+/* ................Appointmentdate.....................  */
+
+#Appointmentdate {
+  width: 100%;
+  background: linear-gradient(#000000 33%, #c8191c 231%);
+  padding-bottom: 20rem;
+
+}
+
+.servicesdate {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.firstname {
+  row-gap: 8rem;
+}
+
+.firstname .mainbutton {
+  align-items: center;
+}
+
+.firstname input {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 2rem 2rem;
+  font-size: 2.4rem;
+  width: 100%;
+}
+
+.firstname select {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 2rem 2rem;
+  font-size: 2.4rem;
+  width: 100%;
+}
+
+.firstname input::placeholder {
+  color: #fff;
+}
+
+.firstname h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 25px;
+}
+
+.applon {
+  display: flex;
+  align-items: center;
+}
+
+.applon h3  {
+  text-align: left;
+}
+
+/* .*****************Appointmentdate......finish***** */
+
+/* ...................................................  */
+
+#letsmembership {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#000000 33%, #c8191c 231%);
+  text-align: center;
+  padding: 10rem 0;
+
+
+}
+
+#letsmembership::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(../images/Wheel2\ 2.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.letsmembershipdata h4 {
+  padding-bottom: 2rem;
+}
+
+.letsmembershipdata p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--primary-color);
+  padding-bottom: 3rem;
+}
+
+
+
+.letsmembershipdata {
+  z-index: 99999;
+  position: relative;
+}
+
+.btnbox .mainbutton {
+  margin-top: 8rem;
+}
+
+
+
+/* ******************************************************* */
+
+/* .............Membership.............. .............  */
+#Membership {
+    width: 100%;
+    background: linear-gradient(0deg,#000000 33%, #c8191c 231%);
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.startedmonth h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  padding-bottom: 2rem;
+} 
+
+.startedmonth span {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 5rem;
+}
+
+
+.price p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.startedmonth {
+  border: 1px solid var(--primary-color);
+  margin: 0 3rem;
+}
+
+.starterprice .mainbutton {
+  margin-top: 6rem;
+}
+
+.Membershipprice {
+  padding-top: 7rem;
+}
+
+/* ...............2nd box.......  */
+
+/* ......hovwe 2...3 ....  */
+
+.startedmonth h2  {
+  color: var(--primary-color);
+  font-size: 6rem;
+  font-weight: 700;
+  padding-bottom: 3rem;
+}
+
+.startedmonth:hover{
+  background-color:var(--secondary-color);
+  
+}
+.startedmonth:hover .mainbutton{
+  background-color: var(--primary-color);
+  color :var(--secondary-color)
+}
+
+
+input[type='checkbox'] { 
+  background-color: #fff !important;
+  padding: 30px;
+ }
+
+/* *********************************** */
+
+/* ...........swiper.................  */ 
+
+#swiper1 {
+  width: 100%;
+  background: linear-gradient( #000000 33%, #c8191c 231%);
+}
+
+#swiper1 h2 {
+  font-size: 12.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  max-width: 151rem;
+}
+ /* .......  */
+
+ .boodooslider {
+  width: 100%;
+  height: 100%;
+}
+
+.girlimg {
+  position: relative;
+}
+
+/* .....  */
+.girlimg::before {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  left: -0.7rem;
+  background-repeat: no-repeat;
+  background-image: url(../images/jjjjj\ arrow.png);
+  background-size: cover;
+  width: 10rem;
+  height: 10rem;
+  background-size: contain;
+}
+
+ .boodooslider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8rem;
+}
+
+.boodooslider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 52rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.boodooslider .swiper-button-next, 
+.boodooslider .swiper-button-prev {
+  color: white;
+}
+
+.girlimg {
+  padding-top: 7rem;
+}
+
+
+.girlimg p {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  font-weight: 400;
+  max-width: 46rem;
+  text-align: left;
+}
+
+.girlimg h3 {
+  font-size: 2.4rem;
+  color: var(--primary-color);
+  font-weight: 400;
+  text-align: left;
+}
+
+
+/* *************swiper......finish**************  */
+.arrow123 img {
+  width: 20px;
+  height: 35rem;
+  object-fit: contain;
+}
+
+.arrow123 {
+  text-align: center;
+  padding-bottom: 8rem;
+}
+
+/* ..........swiper.............. demo.....  */
+
+
+/* ....................BLOG..............  */
+
+
+#blog {
+  width: 100%;
+  background: linear-gradient(0deg,#000000 33%, #c8191c 231%);
+}
+
+.blogdata img {
+  height: 45rem;
+}
+
+.blogdata h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  padding: 8rem 0 2rem 0;
+  max-width: 30rem;
+}
+
+.blogdata {
+  padding-top: 8rem;
+}
+
+.blogdata p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.blogimgdata {
+  margin: 0 2rem;
+}
+
+/* **************blog****finish******** */
+
+/* ...........footer....................  */
+
+footer {
+  padding: 20rem 0;
+}
+
+#footer-map {
+  width: 100%;
+  background: linear-gradient(#000000 33%, #c8191c 231%);
+}
+
+.footerdata {
+  justify-content: space-between;
+
+}
+
+.footerdata p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--primary-color);
+  padding-top: 2rem;
+}
+
+.footerdata h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.footerdata ul li a{
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+
+.footerdata ul li {
+  padding: 1rem 0;
+}
+
+
+.location {
+  margin-right: 1rem;
+}
+
+#footer-map .container {
+ border-top: 1px solid var(--primary-color);
+ border-bottom: 1px solid var(--primary-color);
+ /* padding: 7rem 0 11rem 0; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
